@@ -28,7 +28,7 @@ const handleCarInteriorColor = (color) => {
 				class="transition-transform duration-300 hover:scale-110"
                 @click="handleCarInteriorColor(color)"
 			>
-				<img :src="`/src/assets/images/${color.image}`" :alt="color.name" class="w-12" />
+				<img :src="`/images/${color.image}`" :alt="color.name" class="w-12" />
 			</button>
 		</div>
 	</div>

@@ -14,7 +14,7 @@
 	<!-- Interior Image -->
 	<div class="h-96 bg-gray-200 flex items-center justify-center overflow-hidden mb-4">
 		<img
-			:src="`/src/assets/images/${interior.image}`"
+			:src="`/images/${interior.image}`"
 			alt="Model Y Interior"
 			class="max-w-full h-auto transform scale-125"
 			id="interior-image"

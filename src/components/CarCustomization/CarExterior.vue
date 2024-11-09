@@ -49,7 +49,7 @@
               @click="handleCarExteriorColor(color.name)"
             >
               <img
-                v-bind:src="`/src/assets/images/${color.image}`"
+                v-bind:src="`/images/${color.image}`"
                 :alt="color.name"
                 class="w-22"
               />

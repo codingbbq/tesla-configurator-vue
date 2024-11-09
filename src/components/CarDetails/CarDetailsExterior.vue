@@ -38,7 +38,7 @@ const selectedCar = computed(() => {
 	<!-- Exterior Image -->
 	<div class="h-96 bg-gray-200 flex items-center justify-center overflow-hidden mb-4">
 		<img
-			:src="`/src/assets/images/${selectedCar}`"
+			:src="`/images/${selectedCar}`"
 			alt="Model Y"
 			class="max-w-full h-auto transform scale-125"
 			id="exterior-image"
