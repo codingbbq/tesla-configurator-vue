@@ -1,29 +1,24 @@
-# .
+# Learning Vue - Tesla Configurator using Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is replica of Tesla Configurator by Traversy Media.
+Brad Traversy had developed this using plain javascript.
 
-## Recommended IDE Setup
+I took his base code and converted it to a simple vue application.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Original Links
 
-## Customize configuration
+*Traversy Media*
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+[Vanilla JS - Githhub Link](https://github.com/bradtraversy/tesla-configurator-vanilla-js)
 
-## Project Setup
+[Tutorial - Youtube Link](https://www.youtube.com/watch?v=ui0PmJtKGhQ&t=2140s&ab_channel=TraversyMedia)
 
-```sh
-npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## My learnings
+- Setting up vue project
+- Setting up tailwindcss in vue project
+- Configuring fontawesome in a vue project
+- How to create components, understanding of syntax in vue
+- Difference between options API and Composition API
+- Passing data using provide/Inject 
+- Difference between ref and reactive
